@@ -1,0 +1,16 @@
+﻿<Window x:Class="TryCatchDatum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TryCatchDatum"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" >
+    <Grid>
+        <TextBox Name="textBox1" HorizontalAlignment="Left" Margin="73,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBox2" HorizontalAlignment="Left" Margin="267,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBox3" HorizontalAlignment="Left" Margin="443,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Check" HorizontalAlignment="Left" Margin="267,150,0,0" VerticalAlignment="Top" Width="120" Height="23" Click="Button_Click"/>
+
+    </Grid>
+</Window>
